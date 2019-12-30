@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnBgSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/btn_bg_selector"
+        android:padding="8dp"
+        android:text="Colored Selector" />
+
+
+    <Button
+        android:id="@+id/btnBgSelectorDisabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/btn_bg_selector_disabled"
+        android:enabled="false"
+        android:padding="8dp"
+        android:text="Color Selector Disabled" />
+
+
+    <ImageButton
+        android:id="@+id/imgButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:background="@color/green"
+        android:padding="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_drawable_selector" />
+
+    <Button
+        android:id="@+id/btnTxtSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Text Selector"
+        android:textColor="@drawable/btn_txt_selector" />
+
+
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test toast" />
+
+
+
+
+
+</LinearLayout>
